@@ -1,1 +1,1 @@
-# customer-cc
+# customer-credit
