@@ -1,0 +1,45 @@
+2025-12-18 23:07:35.354 [restartedMain] INFO  c.c.c.CustomerServiceApplication - Starting CustomerServiceApplication using Java 17.0.17 with PID 27904 (C:\Users\abehera042\Project_Works\credit-card-portal\backend\customer-service\target\classes started by abehera042 in C:\Users\abehera042\Project_Works\credit-card-portal\backend\customer-service)
+2025-12-18 23:07:35.355 [restartedMain] DEBUG c.c.c.CustomerServiceApplication - Running with Spring Boot v3.4.12, Spring v6.2.14
+2025-12-18 23:07:35.355 [restartedMain] INFO  c.c.c.CustomerServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-18 23:07:35.419 [restartedMain] INFO  o.s.c.i.s.PropertySourceProcessor - Properties location [classpath:application-${spring.profiles.active}.properties] not resolvable: Could not resolve placeholder 'spring.profiles.active' in value "classpath:application-${spring.profiles.active}.properties"
+2025-12-18 23:07:36.636 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-18 23:07:36.681 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-12-18 23:07:36.855 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=dbe4c688-993d-399b-89ad-b51e9d02f6db
+2025-12-18 23:07:37.429 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-12-18 23:07:37.429 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-12-18 23:07:37.429 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-18 23:07:37.429 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-18 23:07:37.568 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-18 23:07:37.568 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2208 ms
+2025-12-18 23:07:38.122 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - CustomerServiceHikariCP - Starting...
+2025-12-18 23:07:39.035 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - CustomerServiceHikariCP - Added connection org.postgresql.jdbc.PgConnection@212b208
+2025-12-18 23:07:39.037 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - CustomerServiceHikariCP - Start completed.
+2025-12-18 23:07:39.144 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-18 23:07:39.160 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-18 23:07:39.186 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-18 23:07:39.203 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-18 23:07:39.203 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (CustomerServiceHikariCP)']
+	Database driver: undefined/unknown
+	Database version: 17.7
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-18 23:07:39.342 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-18 23:07:39.433 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-18 23:07:44.122 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-12-18 23:07:45.660 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 42 class path changes (0 additions, 0 deletions, 42 modifications)
+2025-12-18 23:07:45.674 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-12-18 23:07:45.813 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-12-18 23:07:45.936 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-12-18 23:07:45.948 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-12-18 23:07:47.387 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-12-18 23:07:47.419 [restartedMain] INFO  c.c.c.CustomerServiceApplication - Started CustomerServiceApplication in 13.612 seconds (process running for 842.332)
+2025-12-18 23:07:47.419 [Thread-29] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-18 23:07:47.423 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-12-18 23:07:48.301 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-18 23:07:48.301 [Thread-29] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-12-18 23:07:48.309 [Thread-29] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-18 23:07:48.309 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource - CustomerServiceHikariCP - Shutdown initiated...
+2025-12-18 23:07:48.321 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource - CustomerServiceHikariCP - Shutdown completed.
